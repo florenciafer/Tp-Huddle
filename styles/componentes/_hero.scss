@@ -1,16 +1,22 @@
 .hero {
   text-align: center;
+  @media screen and (min-width: $xl){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 60px 0;
+  }
 
   .hero__title{
     margin-bottom: $sp2;
-    font-size: $sp3;
+    font-size: $sp2;
   }
   .ilustration {
     width: 70%;
     margin-top: $sp1;
 
     @media screen and (min-width: $xl) {
-      width: 100%;
+      width: 53%;;
     }
   }
 
@@ -24,9 +30,11 @@
 
   .hero__info {
     @media screen and (min-width: $xl) {
-      width: 60%;
-      text-align: left;
-      margin-right: $sp2;
+      flex: 1;
+    max-width: 510px;
+    margin-right: 60px;
+    text-align: left;
+}
     }
   }
-}
+
