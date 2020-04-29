@@ -11,6 +11,16 @@
         flex-direction: row-reverse;
         margin: 6rem 6rem 12rem 6rem;
         text-align: left;
+        .card-reverse{
+          display: flex;
+          flex-direction: row;
+          margin: 6rem 6rem 12rem 6rem;
+        text-align: left;
+        .card-reverse-text{
+          flex-direction: column;
+        }
+        }
+        
       }
      
     .card__img{
@@ -23,6 +33,7 @@
     .card__title{
         color: $very-dark-cyan;
         margin: $sp2 $sp2;
+        
     }
     .card__text{
         color:$grayish-blue;

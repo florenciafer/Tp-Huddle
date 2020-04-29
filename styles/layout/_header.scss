@@ -3,5 +3,10 @@ header{
     background-repeat: no-repeat;
     padding: 0 5%;
     $font-header: "Poppins", sans-serif;
+    @media screen and (min-width: $xl){
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    }
 
 }

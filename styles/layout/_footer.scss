@@ -5,6 +5,7 @@ footer {
     background-color: $very-dark-cyan;
     color:$very-pale-cyan;
     padding: $sp1 0 ;
+    font-size: 1.5rem;
     .footer--botton{
       padding: $sp1 $sp1 ;
     }
@@ -15,6 +16,9 @@ footer {
     @media screen and (min-width: $xl){
       .footer--botton{
         display: flex;
+      }
+      .footer-left{
+        max-width: 360px;
       }
      .contact{
       display: flex;

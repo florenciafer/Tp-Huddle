@@ -1,7 +1,11 @@
 .hero {
   text-align: center;
 
-  .hero__ilustation {
+  .hero__title{
+    margin-bottom: $sp2;
+    font-size: $sp3;
+  }
+  .ilustration {
     width: 70%;
     margin-top: $sp1;
 
