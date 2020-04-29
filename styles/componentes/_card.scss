@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    padding: $sp1 0 $sp5 0;
+    margin: $sp0;
+    overflow: hidden;
+    @media screen and (min-width: $xl) {
+        flex-direction: row-reverse;
+        margin: 6rem 6rem 12rem 6rem;
+        text-align: left;
+      }
+     
+    .card__img{
+        width:80%;
+        @media screen and (min-width: $xl) {
+            width: 50%;
+            padding: $sp4;
+          }
+    }
+    .card__title{
+        color: $very-dark-cyan;
+        margin: $sp2 $sp2;
+    }
+    .card__text{
+        color:$grayish-blue;
+        line-height: $sp2;
+    }
+    &--small {
+        margin-top: -120px;
+        background-color: white;
+        color: black;
+        align-items: center;
+        .card__title--small {
+          margin-top: $sp6;
+          margin-bottom: $sp4;
+          font-size: $sp1;
+          font-weight: 600;
+         
+        }
+        @media screen and (min-width: $xl){
+          display: flex;
+         flex-direction: column;
+        align-items: center;
+        width: 87%;
+        font-size:$sp5 ;
+        font-weight: $font-weight-bold;
+      }
+      }
+    
+    
+}

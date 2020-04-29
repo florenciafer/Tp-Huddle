@@ -1,0 +1,94 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+    background-color: $very-dark-cyan;
+    color:$very-pale-cyan;
+    padding: $sp1 0 ;
+    .footer--botton{
+      padding: $sp1 $sp1 ;
+    }
+    .footer-list-icon{
+
+      list-style: none;
+    }
+    @media screen and (min-width: $xl){
+      .footer--botton{
+        display: flex;
+      }
+     .contact{
+      display: flex;
+      width: 400px;
+      max-width: 100%;
+      justify-content: space-around;
+      color:hsl(0, 0%, 100%) ;
+     }
+     .menu-contact{
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      align-self: center;
+     }
+    }
+    .footer-list-item{
+      padding: $sp1 0;
+      margin: 0 $sp0;
+      display: flex;
+      align-items: center;
+      
+      
+      img{
+        padding-right: $sp0;
+      }
+
+    }
+     ul{
+       list-style: none;
+       .footer-list-contact{
+        padding: $sp1 0;
+        margin: 0 $sp0;
+         
+       }
+     }
+    
+     .social-media{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       margin: 0 $sp6;
+       list-style: none;
+       i{
+        width: 30px;
+       height: 30px;
+       border-radius: 50%;
+       border: 1px solid #fff;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+       }
+       @media screen and (min-width: $xl){
+        i{
+          padding: $sp1 0;
+          margin: 0 $sp0;
+        }
+      }
+
+     }
+     
+     .atributtion{
+      align-items: center;
+      margin: 0 $sp5;
+      @media screen and (min-width: $xl){
+        display: flex;
+	     flex-direction: row-reverse;
+      }
+     
+
+     }
+    .logo--white{
+      width: 45%;
+      fill: white;
+      color: white;
+      margin-top: $sp1;
+    }
+  }

@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 6rem 0; }
+  .navbar .logo {
+    width: 80%; }
+
+.hero {
+  text-align: center; }
+  .hero .hero__ilustation {
+    width: 70%;
+    margin-top: 1rem; }
+    @media screen and (min-width: 1280px) {
+      .hero .hero__ilustation {
+        width: 100%; } }
+  .hero .hero__text {
+    margin: 2.5rem 0; }
+  @media screen and (min-width: 1280px) {
+    .hero {
+      display: flex; } }
+  @media screen and (min-width: 1280px) {
+    .hero .hero__info {
+      width: 60%;
+      text-align: left;
+      margin-right: 2rem; } }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 1rem 0 4rem 0;
+  margin: 0.5rem;
+  overflow: hidden; }
+  @media screen and (min-width: 1280px) {
+    .card {
+      flex-direction: row-reverse;
+      margin: 6rem 6rem 12rem 6rem;
+      text-align: left; } }
+  .card .card__img {
+    width: 80%; }
+    @media screen and (min-width: 1280px) {
+      .card .card__img {
+        width: 50%;
+        padding: 3rem; } }
+  .card .card__title {
+    color: #00252e;
+    margin: 2rem 2rem; }
+  .card .card__text {
+    color: #808d99;
+    line-height: 2rem; }
+  .card--small {
+    margin-top: -120px;
+    background-color: white;
+    color: black;
+    align-items: center; }
+    .card--small .card__title--small {
+      margin-top: 6rem;
+      margin-bottom: 3rem;
+      font-size: 1rem;
+      font-weight: 600; }
+    @media screen and (min-width: 1280px) {
+      .card--small {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 87%;
+        font-size: 4rem;
+        font-weight: 700; } }
+
+.btn {
+  background-color: #ff52bf;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+  color: #ebfbff;
+  font-weight: 900;
+  width: 57%; }
+
+.btn-blanco {
+  background-color: white;
+  color: rgba(53, 52, 52, 0.979);
+  box-shadow: 5px 5px 10px -1px rgba(56, 56, 56, 0.75);
+  font-weight: 900; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+header {
+  background: url(../../images/bg-hero-desktop.svg) #ebfbff;
+  background-repeat: no-repeat;
+  padding: 0 5%; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #00252e;
+  color: #ebfbff;
+  padding: 1rem 0; }
+  footer .footer--botton {
+    padding: 1rem 1rem; }
+  footer .footer-list-icon {
+    list-style: none; }
+  @media screen and (min-width: 1280px) {
+    footer .footer--botton {
+      display: flex; }
+    footer .contact {
+      display: flex;
+      width: 400px;
+      max-width: 100%;
+      justify-content: space-around;
+      color: white; }
+    footer .menu-contact {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      align-self: center; } }
+  footer .footer-list-item {
+    padding: 1rem 0;
+    margin: 0 0.5rem;
+    display: flex;
+    align-items: center; }
+    footer .footer-list-item img {
+      padding-right: 0.5rem; }
+  footer ul {
+    list-style: none; }
+    footer ul .footer-list-contact {
+      padding: 1rem 0;
+      margin: 0 0.5rem; }
+  footer .social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 6rem;
+    list-style: none; }
+    footer .social-media i {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    @media screen and (min-width: 1280px) {
+      footer .social-media i {
+        padding: 1rem 0;
+        margin: 0 0.5rem; } }
+  footer .atributtion {
+    align-items: center;
+    margin: 0 4rem; }
+    @media screen and (min-width: 1280px) {
+      footer .atributtion {
+        display: flex;
+        flex-direction: row-reverse; } }
+  footer .logo--white {
+    width: 45%;
+    fill: white;
+    color: white;
+    margin-top: 1rem; }
+
+/*# sourceMappingURL=style.css.map */
